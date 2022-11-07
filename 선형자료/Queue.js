@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 //먼저 넣은 데이터가 먼저 나오는 FIFO 기반의 선형 자료 구조
-=======
 // 먼저 들어간 자료가 먼저 나오는 FIFO 구조의 자료 형태
 
 // Queue 구현
@@ -55,4 +53,3 @@ Queue.prototype.size = function () {
 Queue.prototype.clear = function () {
   return (this.array = []);
 };
->>>>>>> JS-알고리즘-자료구조
