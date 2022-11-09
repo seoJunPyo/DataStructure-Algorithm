@@ -23,7 +23,7 @@ PriortyQueue.prototype.isEmpty = function () {
 };
 
 // enqueue 데이터 추가
-PriortyQueue.prototype.enqueuq = function (data, priorty) {
+PriortyQueue.prototype.enqueu = function (data, priorty) {
   let element = new Element(data, priorty);
   let added = false;
 

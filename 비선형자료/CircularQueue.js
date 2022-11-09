@@ -7,7 +7,7 @@ function CircularQueue(array = [], size = DEFAULT_SIZE) {
   this.size = array.length > size ? array.length : size;
   this.length = array.length;
   this.head = 0;
-  this.tail = array[array.length];
+  this.tail = array[array.length - 1];
 }
 
 // getBuffer 객체 내 데이터 반환
@@ -66,3 +66,6 @@ CircularQueue.prototype.clear = function (size = DEFAULT_SIZE) {
   this.head = 0;
   this.tail = 0;
 };
+
+let cq = new CircularQueue([1, 2, 3]);
+console.log(cq);

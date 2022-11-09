@@ -24,7 +24,7 @@ Queue.prototype.isEmpty = function () {
 //   return this.array.push(element);
 // };
 Queue.prototype.enqueue = function (element) {
-  return this.array[this.tail++] + element;
+  return (this.array[this.tail++] = element);
 };
 
 // 데이터 삭제
